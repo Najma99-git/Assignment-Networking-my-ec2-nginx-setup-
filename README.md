@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EC2 + NGINX + Custom Domain (Cloudflare)
 
 ## Overview
@@ -19,3 +20,7 @@ User → DNS (Cloudflare) → Public IP (EC2) → NGINX → Web Page
 ## Quick Verification
 - `curl -I http://infonmohamed.com/`
 - `systemctl status nginx`
+=======
+# Assignment-Networking-my-ec2-nginx-setup-
+EC2 instance setup with NGINX and custom domain
+
