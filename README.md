@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # EC2 + NGINX + Custom Domain (Cloudflare)
 
 ## Overview
