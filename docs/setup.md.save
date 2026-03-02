@@ -1,0 +1,14 @@
+# Setup Steps for EC2, NGINX, and Cloudflare DNS Configuration
+
+## Step 1: Launch EC2 Instance
+
+1. Go to the **AWS Console** and select **EC2**.
+2. Click **Launch Instance** and choose **Amazon Linux 2** as the AMI.
+3. Select **t2.micro** as the instance type (eligible for free tier).
+4. Configure the instance settings and set the **Security Group** to allow:
+   - **SSH** (port 22) for remote access.
+   - **HTTP** (port 80) for web traffic.
+5. Download the **Key Pair** for SSH access.
+6. Once the instance is running, connect to it via SSH:
+   ```bash
+   ssh -i "your-key.pem" ec2-user@<your-ec2-public-ip>
