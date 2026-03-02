@@ -1,0 +1,40 @@
+Command used: dig infonmohamed.com
+
+```text 
+
+; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> infonmohamed.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22830
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;infonmohamed.com.              IN      A
+
+;; ANSWER SECTION:
+infonmohamed.com.       64      IN      A       16.171.17.175
+
+;; Query time: 15 msec
+;; SERVER: 10.255.255.254#53(10.255.255.254) (UDP)
+;; WHEN: Mon Mar 02 12:16:35 GMT 2026
+;; MSG SIZE  rcvd: 61
+
+
+Command used: curl -I infonmohamed.com
+
+```text
+
+HTTP/1.1 200 OK
+Server: nginx/1.28.1
+Date: Mon, 02 Mar 2026 12:19:44 GMT
+Content-Type: text/html
+Content-Length: 615
+Last-Modified: Wed, 07 Jan 2026 03:34:49 GMT
+Connection: keep-alive
+ETag: "695dd459-267"
+Accept-Ranges: bytes
+
+
+Command used: ping -c 4 infonmohamed.com
